@@ -32,21 +32,13 @@ public class Hazi_09_13_toronyRajzolo {
         temp = temp+2;
         }while( temp <= meret);
     }
-    
-    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Milyen széles legyen a torony alapja?");
         int meret = sc.nextInt();
         System.out.println("Hány blokkból álljon a torony?");
         int kocka = sc.nextInt();
-
-
         toronyRajzolo(meret,kocka);
-
-            
-    
     }
-    
-}
+  }
 
